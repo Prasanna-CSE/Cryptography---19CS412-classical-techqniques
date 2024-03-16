@@ -210,13 +210,8 @@ return 0;
 ```
 
 ## OUTPUT:
-```
-Enter key: crypto
+![Screenshot (83)](https://github.com/Prasanna-CSE/Cryptography---19CS412-classical-techqniques/assets/119102676/6a3a6834-4379-48ad-bad1-6ece8489402c)
 
-Enter the plain text: pras C R Y P T O A B D E F G H I K L M N Q S U V W X Z
-
-Entered text: pras Cipher Text: GA WL
-```
 
 ## RESULT:
 The program is executed successfully
@@ -288,11 +283,8 @@ int main() {
 ```
 
 ## OUTPUT:
-```
-Enter plain text : prasanna
-47 49 32 50 32 45 45 32
-Encrypted Cipher Text : I Z R
-```
+
+![Screenshot (84)](https://github.com/Prasanna-CSE/Cryptography---19CS412-classical-techqniques/assets/119102676/a8c9d601-530e-4a47-abc5-2e3bc84a2dad)
 
 ## RESULT:
 The program is executed successfully
@@ -395,15 +387,8 @@ return 0;
 ```
 
 ## OUTPUT:
-```
-1. Encrypt
-2. Decrypt
-3. Exit
-Enter your option: 1
-Enter the plaintext (up to 128 characters): cryptograpy
-Enter the key (up to 16 characters): prasanna
-Cipher Text: RIYHTBTRPGY
-```
+![Screenshot (85)](https://github.com/Prasanna-CSE/Cryptography---19CS412-classical-techqniques/assets/119102676/70512fc2-af01-41eb-b099-f0aa4bb35e98)
+
 
 ## RESULT:
 The program is executed successfully
@@ -482,12 +467,9 @@ return 0;
 ```
 
 ## OUTPUT:
-```
-Enter the input string : my name is prasanna
 
-Cipher text after applying rail fence : m aei rsnaynm spaan
-Text after decryption : my name is prasanna
-```
+![Screenshot (86)](https://github.com/Prasanna-CSE/Cryptography---19CS412-classical-techqniques/assets/119102676/0ba7321f-f4fc-470e-af68-d311c052a79c)
+
 
 ## RESULT:
 The program is executed successfully
