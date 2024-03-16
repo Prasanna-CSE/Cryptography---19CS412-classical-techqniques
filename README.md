@@ -65,19 +65,13 @@ for (i = 0; i < length; i++) {
 }
 
 return 0;
-} ```
+}
+```
 
 ## OUTPUT:
-```Enter the plain text:prasanna
 
- Enter the key value:3
+![Screenshot (82)](https://github.com/Prasanna-CSE/Cryptography---19CS412-classical-techqniques/assets/119102676/33192fda-8d36-4f3a-9418-4edf7793d325)
 
- 
- 	 PLAIN TEXT: prasanna
- 
- 	 ENCRYPTED TEXT: sudvdqqd
- 
- 	 AFTER DECRYPTION : prasanna```
 
 ## RESULT:
 The program is executed successfully
@@ -106,7 +100,8 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
-```#include <stdio.h> #include <string.h> #include <ctype.h>
+```
+#include <stdio.h> #include <string.h> #include <ctype.h>
 
 #define MX 5
 
@@ -211,14 +206,17 @@ for (i = 0; i < strlen(str); i++) {
     }
 }
 return 0;
-}```
+}
+```
 
-## OUTPUT:```
+## OUTPUT:
+```
 Enter key: crypto
 
 Enter the plain text: pras C R Y P T O A B D E F G H I K L M N Q S U V W X Z
 
-Entered text: pras Cipher Text: GA WL```
+Entered text: pras Cipher Text: GA WL
+```
 
 ## RESULT:
 The program is executed successfully
@@ -248,7 +246,8 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
-```#include<stdio.h>
+```
+#include<stdio.h>
 #include<conio.h>
 #include<string.h>
 
@@ -285,12 +284,15 @@ int main() {
             t=t+(b[i][j]*d[j]);
         }
         c[i]=t%26;
-    }}```
+    }}
+```
 
 ## OUTPUT:
-```Enter plain text : prasanna
+```
+Enter plain text : prasanna
 47 49 32 50 32 45 45 32
-Encrypted Cipher Text : I Z R```
+Encrypted Cipher Text : I Z R
+```
 
 ## RESULT:
 The program is executed successfully
@@ -319,7 +321,8 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
-```#include <stdio.h>
+```
+#include <stdio.h>
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
@@ -388,16 +391,19 @@ scanf("%d", &option);
     }  
 }  
 return 0;  
-}```
+}
+```
 
-## OUTPUT:```
+## OUTPUT:
+```
 1. Encrypt
 2. Decrypt
 3. Exit
 Enter your option: 1
 Enter the plaintext (up to 128 characters): cryptograpy
 Enter the key (up to 16 characters): prasanna
-Cipher Text: RIYHTBTRPGY```
+Cipher Text: RIYHTBTRPGY
+```
 
 ## RESULT:
 The program is executed successfully
@@ -426,7 +432,11 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
-```#include<stdio.h> #incl#include<stdio.h> #include<conio.h> #include<string.h>
+```
+#include<stdio.h>
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
 
 int main() { int i, j, k, l; char a[20], c[20], d[20];
 
@@ -468,13 +478,16 @@ printf("\nText after decryption : ");
 printf("%s", d);
 
 return 0;
-}```
+}
+```
 
 ## OUTPUT:
-```Enter the input string : my name is prasanna
+```
+Enter the input string : my name is prasanna
 
 Cipher text after applying rail fence : m aei rsnaynm spaan
-Text after decryption : my name is prasanna```
+Text after decryption : my name is prasanna
+```
 
 ## RESULT:
 The program is executed successfully
